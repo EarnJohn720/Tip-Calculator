@@ -1,7 +1,20 @@
-﻿body
-{
-
-}
+﻿
 #results {
     display: none;
+}
+body {
+    background-image: url(matrix.jpg);
+    Background-size: cover;
+    background-position: center;
+    display: flex;
+    /*height: 100vh;*/
+}
+.container {
+    border-style: dotted;
+    border-width: 3px;
+    border-radius: 3px;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
 }
